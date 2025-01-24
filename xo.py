@@ -24,6 +24,7 @@ while True:
         lenta[ejimas] = zaidejas
     else:
         print("Langelis jau užimtas. Rinkites kita langelį")
+        continue
 
     if (lenta[0] == lenta[1] == lenta[2] == zaidejas or
         lenta[3] == lenta[4] == lenta[5] == zaidejas or
